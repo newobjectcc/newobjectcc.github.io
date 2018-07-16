@@ -1,7 +1,12 @@
 
+<!-- 开发笔记 - NOTE --> 
+
 ## [我的网站](https://www.newobject.cc)   ·   [关于我](https://www.newobject.cc/about.html)
 
 ---
+
+## [博客收藏](./博客收藏/blog-collect.md)
+
 
 ## 我的文章
 
