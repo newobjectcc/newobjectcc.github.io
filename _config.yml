@@ -1,3 +1,5 @@
-theme: jekyll-theme-cayman
 title: 开发笔记 - NOTE
 description: 真的猛士，敢于直面惨淡的人生，敢于正视淋漓的鲜血。   —— 鲁迅
+theme: jekyll-theme-cayman
+show_downloads: false
+
