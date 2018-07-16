@@ -1,7 +1,7 @@
 
-## [我的网站](https://www.newobject.cc)     ·     [关于我](https://www.newobject.cc/about.html)
+## [我的网站](https://www.newobject.cc)   ·   [关于我](https://www.newobject.cc/about.html)
 
-
+---
 
 ## 我的文章
 
