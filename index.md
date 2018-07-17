@@ -11,7 +11,7 @@
 ## 我的文章
 
 ---
-* ### [JAVA基础 - xxxx](https://www.newobject.cc/article/100004.html)
+* ### [JAVA基础 - xxxx](https://www.newobject.cc/article/100004.html) <!-- 显示6个 -->
 
 * ### [更多...](https://www.newobject.cc/article/100004.html)
 
