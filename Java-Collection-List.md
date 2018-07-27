@@ -4,14 +4,14 @@
 
 ### JAVA 集合关系（简图）
 
-![集合.jpg](http://note.youdao.com/favicon.ico)
+![集合](.\img\JAVA基础\集合.jpg)
 
 （图片来源网络）
 
 
 List集合和Set集合都是继承Collection接口，是List和Set的最上级接口，包含如下方法:
 
-![Collection接口.png](http://note.youdao.com/favicon.ico)
+![Collection接口](.\img\JAVA基础\Collection接口.png)
 
 
 ### List 集合
@@ -20,7 +20,7 @@ List是一个有序集合(也称为序列)，你可以控制每个元素被插�
 
 List集合是可以根据索引来操纵集合，所以List接口在Collection接口基础增加了一些根据索引操纵集合的接口方法。
 
-![List接口.png](http://note.youdao.com/favicon.ico)
+![List接口](.\img\JAVA基础\List接口.png)
 
 
 
@@ -30,19 +30,19 @@ List 集合有两个常用实现，ArrayList和LinkedList，内部采用不同�
 
 **ArrayList**
 
-![ArrayList类-1.png](http://note.youdao.com/favicon.ico)
+![ArrayList类](.\img\JAVA基础\ArrayList类-1.png)
 
 ArrayList类除了继承和实现集合接口外，还实现了RandomAccess, Cloneable接口。说明ArrayList支持*克隆*和*快速随机访问*。
 
 
 **ArrayList 的内部数据结构是数组**。
 
-![ArrayList内部数据结构-数组.png](http://note.youdao.com/favicon.ico)
+![ArrayList内部数据结构-数组](.\img\JAVA基础\ArrayList内部数据结构-数组.png)
 
 
 **默认初始化容量为10**
 
-![默认初始化容量.png](http://note.youdao.com/favicon.ico)
+![默认初始化容量](.\img\JAVA基础\默认初始化容量.png)
 
 
 **从查找，增加，删除，修改元素部分方法看ArrayList集合适合哪些操作**
@@ -77,7 +77,8 @@ public int indexOf(Object o) {
 
 
 ```
-// 增加元素，存在扩容，数据拷贝等问题，效率会变低，如果要向集合中大量的添加元素可以通过构造方法指定较大的初始容量。
+// 增加元素，存在扩容，数据拷贝等问题，效率会变低，
+// 如果要向集合中大量的添加元素可以通过构造方法指定较大的初始容量。
 public boolean add(E e) {
     ensureCapacityInternal(size + 1);  // 增加 modCount!!
     elementData[size++] = e;
@@ -148,7 +149,8 @@ public E remove(int index) {
 
 
 ```
-// 根据集合元素删除，先循环找出要删除的元素位置索引，然后再根据索引删除。和根据索引删除方法比较，多了一步通过循环查找元素索引位置的过程。
+// 根据集合元素删除，先循环找出要删除的元素位置索引，然后再根据索引删除。
+// 和根据索引删除方法比较，多了一步通过循环查找元素索引位置的过程。
 public boolean remove(Object o) {
     if (o == null) {
         for (int index = 0; index < size; index++)
@@ -200,12 +202,12 @@ public E set(int index, E element) {
 
 **LinkedList**
 
-![LinkedList集合.png](http://note.youdao.com/favicon.ico)
+![LinkedList集合](.\img\JAVA基础\LinkedList集合.png)
 
 LinkedList 类还实现了Deque 接口（Deque 代表算端队列，与 List 接口不同，此接口不支持通过索引访问元素），所以LinkedList 是一个List集合也是一个双端队列。 
 
 
-![LinkedList类-1.png](http://note.youdao.com/favicon.ico)
+![LinkedList类](.\img\JAVA基础\LinkedList类-1.png)
 
 
 ```
@@ -227,7 +229,7 @@ LinkedList 是一个链表数据结构，其中维护了一个内部类Node做�
 
 链表结构如图：
 
-![双向链表结构图.png](http://note.youdao.com/favicon.ico)
+![双向链表结构图](.\img\JAVA基础\双向链表结构图.png)
 
 （图片来源网络）
 
@@ -238,7 +240,9 @@ LinkedList 是一个链表数据结构，其中维护了一个内部类Node做�
 查找元素方法：get
 
 ```
-根据索引查找元素，由于链表没有索引，所以需要从头部或尾部遍历查找。ArrayList 和 LinkedList底层数据结构不同导致的 ArrayList集合中查找元素效率更高，因为ArrayList底层是数组，可以直接根据index索引获取元素。
+// 根据索引查找元素，由于链表没有索引，所以需要从头部或尾部遍历查找。
+// ArrayList 和 LinkedList底层数据结构不同导致的 ArrayList集合中查找元素效率更高，
+// 因为ArrayList底层是数组，可以直接根据index索引获取元素。
 public E get(int index) {
     checkElementIndex(index);
     return node(index).item;
@@ -329,7 +333,8 @@ void linkBefore(E e, Node<E> succ) {
 
 修改元素方法：set
 
-LinkedList修改元素时需要先遍历找到元素，ArrayList可以直接根据索引获得元素，所以LinkedList效率较低，当元素越靠近中间位置越明显。
+// LinkedList修改元素时需要先遍历找到元素，ArrayList可以直接根据索引获得元素，
+// 所以LinkedList效率较低，当元素越靠近中间位置越明显。
 
 ```
 public E set(int index, E element) {
@@ -360,7 +365,7 @@ Node<E> node(int index) {
 
 删除元素方法：remove
 
-和ArrayList相比不存在移动拷贝情况，所以LinkedList删除元素效率比ArrayList高
+// 和ArrayList相比不存在移动拷贝情况，所以LinkedList删除元素效率比ArrayList高
 
 ```
 public E remove(int index) {
@@ -414,7 +419,7 @@ E unlink(Node<E> x) {
 
 LinkedList 实现了Deque接口，是一个双端队列，所以LinkedList又包含如下常用方法：
 
-![Deque接口部分方法.png](http://note.youdao.com/favicon.ico)
+![Deque接口部分方法](.\img\JAVA基础\Deque接口部分方法.png)
 
 
 
@@ -424,19 +429,19 @@ LinkedList 实现了Deque接口，是一个双端队列，所以LinkedList又包
 
 源码中Collection接口中的多个方法在List接口中又重复定义了一次，既然List 已经继承了Collection接口，为什么重复定义，历史原因？先有List后有Collection？
 
-![Collection接口-1.png](http://note.youdao.com/favicon.ico)
-![List接口-1.png](http://note.youdao.com/favicon.ico)
+![Collection接口](.\img\JAVA基础\Collection接口-1.png)
+![List接口](.\img\JAVA基础\List接口-1.png)
 
 
 **重复实现接口**
 
 AbstractList 已经实现List接口，ArrayList继承 AbstractList，然而ArrayList源码又实现了 List接口。
 
-![ArrayList类.png](http://note.youdao.com/favicon.ico)
-![AbstractListl类.png](http://note.youdao.com/favicon.ico)
+![ArrayList类](.\img\JAVA基础\ArrayList类.png)
+![AbstractListl类](.\img\JAVA基础\AbstractListl类.png)
     
 网上搜了下答案：
-![重复实现接口.png](http://note.youdao.com/favicon.ico)
+![重复实现接口](.\img\JAVA基础\重复实现接口.png)
 
 大意是他问过这块的开发者,这是一个错误。很久以前认为有价值的。
 
@@ -452,19 +457,22 @@ List集合和Set集合都是继承Collection接口，是List和Set的最上级�
 
 ---
 
-## Map 集合
+### Map 集合
 
 [Map集合详见 >> ](http://note.youdao.com/)
 
 
-## Set集合
+### Set集合
 
 [Set集合详见 >> ](http://note.youdao.com/)
 
 
-## 集合的迭代器（以及集合遍历时注意的问题）
+### 集合的迭代器（以及集合遍历时注意的问题）
 
 [集合详见 >> ](http://note.youdao.com/)
+
+
+
 
 
 
