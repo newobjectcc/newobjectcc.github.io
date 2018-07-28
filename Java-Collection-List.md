@@ -1,4 +1,6 @@
 
+(源码版本为 JDK 8)
+
 集合类在java.util包中，类型大体可以分为3种：Set、List、Map。
 
 
@@ -445,7 +447,7 @@ AbstractList 已经实现List接口，ArrayList继承 AbstractList，然而Array
 
 大意是他问过这块的开发者,这是一个错误。很久以前认为有价值的。
 
-不知道这个答案是否正确？
+不知道这个答案是否正确？(仅供参考)
 
 https://stackoverflow.com/questions/2165204/why-does-linkedhashsete-extend-hashsete-and-implement-sete
 
