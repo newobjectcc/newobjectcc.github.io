@@ -84,12 +84,9 @@ JDK 8 之前HashMap的实现是数组+链表，即使哈希函数取得再好，
 
 
 
-
 **HashMap 的方法**
 
 添加元素方法 put ,putAll：
-
-
 
 ```
 // 保存元素
@@ -256,6 +253,11 @@ final Node<K,V>[] resize() {
 
 ```
 
+[^_^]: putAll 待续
+
+
+
+
 
 获取元素方法 get：
 
@@ -294,13 +296,9 @@ final Node<K,V> getNode(int hash, Object key) {
 ```
 
 
-
-
 ### TreeMap
 
 ...
-
-
 
 
 ### 总结
