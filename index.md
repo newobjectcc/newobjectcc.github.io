@@ -1,22 +1,27 @@
 
 <!-- 开发笔记 - NOTE --> 
 
-## [我的网站](https://www.newobject.cc)   ·   [关于我](https://www.newobject.cc/about.html)
+## [我的网站](https://www.newobject.cc){:target="_blank"}  ·   [关于我](https://www.newobject.cc/about.html){:target="_blank"}
 
 ---
 
-## [博客收藏](./博客收藏/blog-collect.md)
+## [博客收藏](./博客收藏/blog-collect.md){:target="_blank"}
 
 
 ## 我的文章
 
----
-* ### [JAVA基础 - Collection-List集合](./Java-Collection-List.html) <!-- 显示6个 -->
-
-* ### [更多...](https://www.newobject.cc/article/100004.html)
+[^_^]:每个分类只显示六行
 
 ---
-* ### [Linux - 程序员必会的常用Linux 操作命令（文件和目录 - 上）](https://www.newobject.cc/article/100004.html)
+
+* ### [JAVA基础 - Collection-List集合](./Java-Collection-List.html){:target="_blank"}
+
+* ### [JAVA基础 - Map集合](./Java-Map.html){:target="_blank"}
+
+* ### [更多...](/)
+
+---
+* ### [Linux - 程序员必会的常用Linux 操作命令（文件和目录 - 上）](https://www.newobject.cc/article/100004.html){:target="_blank"}
 
 * ### [更多...](https://www.newobject.cc/article/100004.html)
 
