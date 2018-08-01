@@ -253,7 +253,7 @@ final Node<K,V>[] resize() {
 
 ```
 
-[^_^]: putAll 待续
+[^_^]: putAll 待
 
 
 
@@ -292,7 +292,7 @@ final Node<K,V> getNode(int hash, Object key) {
 
 ```
 
-[^_^]:红黑树相关的待完善
+[^_^]:红黑树相关的待
 
 
 
