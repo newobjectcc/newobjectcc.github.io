@@ -26,7 +26,7 @@ Map 接口有两个常用的实现类，分别为HashMap和TreeMap。
 
 ![HashMap类.png](.\img\JAVA基础\HashMap类.png)
 
-HashMap 又实现了Cloneable接口，支持对象克隆。
+HashMap 实现了Cloneable接口，支持对象克隆。
 
 
 ![HashMap默认初始容量.png](.\img\JAVA基础\HashMap默认初始容量.png)
