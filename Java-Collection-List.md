@@ -461,17 +461,17 @@ List集合和Set集合都是继承Collection接口，是List和Set的最上级�
 
 ### Map 集合
 
-[Map集合详见 >> ](./Java-Map.html){:target="_blank"}
+[Map集合见 >> ](./Java-Map.html){:target="_blank"}
 
 
 [^_^]:### Set集合
 
-[^_^]:[Set集合详见 >> ](http://note.youdao.com/)
+[^_^]:[Set集合见 >> ](http://note.youdao.com/)
 
 
 [^_^]:### 集合的迭代器（以及集合遍历时注意的问题）
 
-[^_^]:[迭代器详见 >> ](http://note.youdao.com/)
+[^_^]:[迭代器见 >> ](http://note.youdao.com/)
 
 
 
