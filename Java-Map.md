@@ -290,10 +290,10 @@ final Node<K,V> getNode(int hash, Object key) {
 }
 
 
+```
+
 [^_^]:红黑树相关的待完善
 
-
-```
 
 
 ### TreeMap
