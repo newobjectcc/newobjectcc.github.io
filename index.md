@@ -1,7 +1,7 @@
 
 <!-- 开发笔记 - NOTE --> 
 
-## [我的网站](https://www.newobject.cc){:target="_blank"}  ·   [关于我](https://www.newobject.cc/about.html){:target="_blank"}
+<i class="fa fa-camera-retro"></i> fa-camera-retro ## [我的网站](https://www.newobject.cc){:target="_blank"}  ·   [关于我](https://www.newobject.cc/about.html){:target="_blank"}
 
 ---
 
