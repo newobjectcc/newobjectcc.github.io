@@ -1,14 +1,14 @@
 
 <!-- 开发笔记 - NOTE --> 
 
-## <i class="fa fa-camera-retro"></i> [我的网站](https://www.newobject.cc){:target="_blank"}  ·   [关于我](https://www.newobject.cc/about.html){:target="_blank"}
+## <i class="fa fa-home" aria-hidden="true"></i>  [我的网站](https://www.newobject.cc){:target="_blank"}  ·   <i class="fa fa-user-o" aria-hidden="true"></i>  [关于我](https://www.newobject.cc/about.html){:target="_blank"}
 
 ---
 
-## [博客收藏](./博客收藏/blog-collect.md){:target="_blank"}
+##  <i class="fa fa-star-o" aria-hidden="true"></i>  [博客收藏](./博客收藏/blog-collect.md){:target="_blank"}
 
 
-## 我的文章
+## <i class="fa fa-file-text-o" aria-hidden="true"></i>  我的文章
 
 [^_^]:每个分类只显示六行
 
