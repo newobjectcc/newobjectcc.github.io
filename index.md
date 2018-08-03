@@ -8,7 +8,7 @@
 ##  <i class="fa fa-star-o" aria-hidden="true"></i>  [博客收藏](./博客收藏/blog-collect.md){:target="_blank"}
 
 
-## <i class="fa fa-file-text-o" aria-hidden="true"></i>  我的文章
+## <i class="fa fa-file-text-o" aria-hidden="true"></i>  我的NOTE
 
 [^_^]:每个分类只显示六行
 
