@@ -6,14 +6,14 @@
 
 ### JAVA 集合关系（简图）
 
-![集合](.\img\JAVA基础\集合.jpg)
+![集合](\img\JAVA基础\集合.jpg)
 
 （图片来源网络）
 
 
 List集合和Set集合都是继承Collection接口，是List和Set的最上级接口，包含如下方法:
 
-![Collection接口](.\img\JAVA基础\Collection接口.png)
+![Collection接口](\img\JAVA基础\Collection接口.png)
 
 
 ### List 集合
@@ -22,7 +22,7 @@ List是一个有序集合(也称为序列)，你可以控制每个元素被插�
 
 List集合是可以根据索引来操纵集合，所以List接口在Collection接口基础增加了一些根据索引操纵集合的接口方法。
 
-![List接口](.\img\JAVA基础\List接口.png)
+![List接口](\img\JAVA基础\List接口.png)
 
 
 
