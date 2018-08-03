@@ -5,7 +5,7 @@
 
 ### JAVA 集合关系（简图）
 
-![集合.jpg](.\img\JAVA基础\集合.jpg)
+![集合.jpg](\img\JAVA基础\集合.jpg)
 
 （图片来源网络）
 
@@ -16,7 +16,7 @@ Map集合没有继承Collection接口,也是最上层接口，Map 和 Collection
 
 Map接口中有如下部分方法：
 
-![Map接口.png](.\img\JAVA基础\Map接口.png)
+![Map接口.png](\img\JAVA基础\Map接口.png)
 
 （JDK 8）
 
@@ -25,16 +25,16 @@ Map 接口有两个常用的实现类，分别为HashMap和TreeMap。
 
 ### HashMap 
 
-![HashMap类.png](.\img\JAVA基础\HashMap类.png)
+![HashMap类.png](\img\JAVA基础\HashMap类.png)
 
 HashMap 实现了Cloneable接口，支持对象克隆。
 
 
-![HashMap默认初始容量.png](.\img\JAVA基础\HashMap默认初始容量.png)
+![HashMap默认初始容量.png](\img\JAVA基础\HashMap默认初始容量.png)
 
 默认的初始容量为 16 
 
-![HashMap最大容量.png](.\img\JAVA基础\HashMap最大容量.png)
+![HashMap最大容量.png](\img\JAVA基础\HashMap最大容量.png)
 
 
 ```
@@ -42,7 +42,7 @@ HashMap 实现了Cloneable接口，支持对象克隆。
 ```
 
 
-![HashMap装载系数.png](.\img\JAVA基础\HashMap装载系数.png)
+![HashMap装载系数.png](\img\JAVA基础\HashMap装载系数.png)
 
 装载系数，也叫装载因子，用来表示HashMap填满的程度， 默认值为0.75f。填满程度（也就是阈值)这样计算的，阈值 = 装载系数 * 容量。
 
@@ -50,7 +50,7 @@ HashMap 实现了Cloneable接口，支持对象克隆。
 
 
 
-![HashMap红黑树阈值.png](.\img\JAVA基础\HashMap红黑树阈值.png)
+![HashMap红黑树阈值.png](\img\JAVA基础\HashMap红黑树阈值.png)
 
 桶中的链表元素个数达到这个阈值时链表会转换为红黑树结构，用红黑树来替代链表。
 
@@ -61,25 +61,25 @@ JDK 8 之前HashMap的实现是数组+链表，即使哈希函数取得再好，
 针对这种情况JDK 8 中引入了红黑树（查找时间复杂度为 O(logn)）来优化这个问题
 
 
-![HashMap红黑树还原为链表阈值.png](.\img\JAVA基础\HashMap红黑树还原为链表阈值.png)
+![HashMap红黑树还原为链表阈值.png](\img\JAVA基础\HashMap红黑树还原为链表阈值.png)
 
 当扩容时，桶中元素个数小于这个值，就会把树形的桶元素 还原（切分）为链表结构
 
 
-![HashMap最小数型化容量.png](.\img\JAVA基础\HashMap最小数型化容量.png)
+![HashMap最小数型化容量.png](\img\JAVA基础\HashMap最小数型化容量.png)
 
 当哈希表中的容量大于这个值时，表中的桶才进行树形化，否则桶内元素太多时会扩容，而不是树形化，为了避免进行扩容、树形化选择的冲突，这个值不能小于 4 * TREEIFY_THRESHOLD
 
 
-![HashMap内部数组.png](.\img\JAVA基础\HashMap内部数组.png)
+![HashMap内部数组.png](\img\JAVA基础\HashMap内部数组.png)
 
 内部的数组结构
 
-![HashMap内部链表.png](.\img\JAVA基础\HashMap内部链表.png)
+![HashMap内部链表.png](\img\JAVA基础\HashMap内部链表.png)
 
 内部的链表结构
 
-![HashMap内部红黑树结构.png](.\img\JAVA基础\HashMap内部红黑树结构.png)
+![HashMap内部红黑树结构.png](\img\JAVA基础\HashMap内部红黑树结构.png)
 
 内部的红黑树结构
 

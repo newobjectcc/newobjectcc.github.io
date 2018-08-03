@@ -32,19 +32,19 @@ List 集合有两个常用实现，ArrayList和LinkedList，内部采用不同�
 
 **ArrayList**
 
-![ArrayList类](.\img\JAVA基础\ArrayList类-1.png)
+![ArrayList类](\img\JAVA基础\ArrayList类-1.png)
 
 ArrayList类除了继承和实现集合接口外，还实现了RandomAccess, Cloneable接口。说明ArrayList支持*克隆*和*快速随机访问*。
 
 
 **ArrayList 的内部数据结构是数组**。
 
-![ArrayList内部数据结构-数组](.\img\JAVA基础\ArrayList内部数据结构-数组.png)
+![ArrayList内部数据结构-数组](\img\JAVA基础\ArrayList内部数据结构-数组.png)
 
 
 **默认初始化容量为10**
 
-![默认初始化容量](.\img\JAVA基础\默认初始化容量.png)
+![默认初始化容量](\img\JAVA基础\默认初始化容量.png)
 
 
 **从查找，增加，删除，修改元素部分方法看ArrayList集合适合哪些操作**
@@ -204,12 +204,12 @@ public E set(int index, E element) {
 
 **LinkedList**
 
-![LinkedList集合](.\img\JAVA基础\LinkedList集合.png)
+![LinkedList集合](\img\JAVA基础\LinkedList集合.png)
 
 LinkedList 类还实现了Deque 接口（Deque 代表算端队列，与 List 接口不同，此接口不支持通过索引访问元素），所以LinkedList 是一个List集合也是一个双端队列。 
 
 
-![LinkedList类](.\img\JAVA基础\LinkedList类-1.png)
+![LinkedList类](\img\JAVA基础\LinkedList类-1.png)
 
 
 ```
@@ -231,7 +231,7 @@ LinkedList 是一个链表数据结构，其中维护了一个内部类Node做�
 
 链表结构如图：
 
-![双向链表结构图](.\img\JAVA基础\双向链表结构图.png)
+![双向链表结构图](\img\JAVA基础\双向链表结构图.png)
 
 （图片来源网络）
 
@@ -421,7 +421,7 @@ E unlink(Node<E> x) {
 
 LinkedList 实现了Deque接口，是一个双端队列，所以LinkedList又包含如下常用方法：
 
-![Deque接口部分方法](.\img\JAVA基础\Deque接口部分方法.png)
+![Deque接口部分方法](\img\JAVA基础\Deque接口部分方法.png)
 
 
 
@@ -431,19 +431,19 @@ LinkedList 实现了Deque接口，是一个双端队列，所以LinkedList又包
 
 源码中Collection接口中的多个方法在List接口中又重复定义了一次，既然List 已经继承了Collection接口，为什么重复定义，历史原因？先有List后有Collection？
 
-![Collection接口](.\img\JAVA基础\Collection接口-1.png)
-![List接口](.\img\JAVA基础\List接口-1.png)
+![Collection接口](\img\JAVA基础\Collection接口-1.png)
+![List接口](\img\JAVA基础\List接口-1.png)
 
 
 **重复实现接口**
 
 AbstractList 已经实现List接口，ArrayList继承 AbstractList，然而ArrayList源码又实现了 List接口。
 
-![ArrayList类](.\img\JAVA基础\ArrayList类.png)
-![AbstractListl类](.\img\JAVA基础\AbstractListl类.png)
+![ArrayList类](\img\JAVA基础\ArrayList类.png)
+![AbstractListl类](\img\JAVA基础\AbstractListl类.png)
     
 网上搜了下答案：
-![重复实现接口](.\img\JAVA基础\重复实现接口.png)
+![重复实现接口](\img\JAVA基础\重复实现接口.png)
 
 大意是他问过这块的开发者,这是一个错误。很久以前认为有价值的。
 
