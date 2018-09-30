@@ -1,9 +1,9 @@
 
 <!-- 开发笔记 - NOTE --> 
-<!-- 
-## <i class="fa fa-home" aria-hidden="true"></i>  [我的网站](https://www.newobject.cc){:target="_blank"}  ·  <i class="fa fa-user-o" aria-hidden="true"></i>  [关于我](https://www.newobject.cc/about.html){:target="_blank"}
--->
----
+
+[^_^]: ## <i class="fa fa-home" aria-hidden="true"></i>  [我的网站](https://www.newobject.cc){:target="_blank"}  ·  <i class="fa fa-user-o" aria-hidden="true"></i>  [关于我](https://www.newobject.cc/about.html){:target="_blank"}
+
+[^_^]: ---
 
 ##  <i class="fa fa-star-o" aria-hidden="true"></i>  [博客收藏](./博客收藏/blog-collect.md){:target="_blank"}
 
