@@ -459,6 +459,12 @@ List集合和Set集合都是继承Collection接口，是List和Set的最上级�
 
 ---
 
+
+[^_^]:### ConcurrentLinkedQueue集合
+
+[^_^]:[ConcurrentLinkedQueue集合见 >> ](http://note.youdao.com/)
+
+
 ### Map 集合
 
 [Map集合见 >> ](./Java-Map.html){:target="_blank"}

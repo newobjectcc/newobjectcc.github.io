@@ -87,7 +87,7 @@ JDK 8 之前HashMap的实现是数组+链表，即使哈希函数取得再好，
 
 **HashMap 的方法**
 
-添加元素方法 put ,putAll：
+添加元素方法 put：
 
 ```
 // 保存元素
@@ -254,11 +254,6 @@ final Node<K,V>[] resize() {
 
 ```
 
-[^_^]: putAll 待
-
-
-
-
 
 获取元素方法 get：
 
@@ -293,13 +288,40 @@ final Node<K,V> getNode(int hash, Object key) {
 
 ```
 
-[^_^]:红黑树相关的待
+
+[^_^]: 删除元素方法
+
+
+[^_^]: 修改元素方法
+
+
+
+
+### LinkedHashMap
+
+... 
 
 
 
 ### TreeMap
 
 ...
+
+
+[^_^]:https://www.cnblogs.com/skywang12345/p/3310928.html
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### 总结
@@ -312,9 +334,12 @@ final Node<K,V> getNode(int hash, Object key) {
 
 [^_^]:HashMap 重写hashCode() 和 equals() 方法，为什么要重写这两个方法
 
+[^_^]:TreeMap 和 HashMap 的区别
 
 
+[^_^]:了解红黑树请见 http:xxx
 
 
+---
 
 
