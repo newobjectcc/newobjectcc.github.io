@@ -6,7 +6,7 @@
 
 该项目是我的个人博客。
 
-访问地址：[https://www.newoject.cc](https://www.newoject.cc)
+访问地址：[https://www.newobject.cc](https://www.newobject.cc)
 
 <br>
 <br>
